@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitLife</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>💪 FitLife</h1>
+</header>
+
+<main>
+
+  <section class="card">
+    <h2>Registrar treino</h2>
+    <input type="text" id="treino" placeholder="Ex: Corrida 20min">
+    <button onclick="salvarTreino()">Salvar</button>
+  </section>
+
+  <section class="card">
+    <h2>Seus treinos</h2>
+    <ul id="lista"></ul>
+  </section>
+
+  <section class="card">
+    <h2>Calcular IMC</h2>
+    <input type="number" id="peso" placeholder="Peso (kg)">
+    <input type="number" id="altura" placeholder="Altura (m)">
+    <button onclick="calcularIMC()">Calcular</button>
+    <p id="resultadoIMC"></p>
+    <!-- 👇 AQUI -->
+<p id="recomendacao" class="recomendacao"></p>
+  </section>
+
+  <section class="card">
+    <h2>Exercícios recomendados</h2>
+    <ul>
+      <li>💪 Flexão – 3x10</li>
+      <li>🏃 Corrida – 20min</li>
+      <li>🦵 Agachamento – 3x15</li>
+      <li>🔥 Prancha – 30s</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Alimentação saudável</h2>
+    <ul>
+      <li>🥗 Comer frutas e verduras</li>
+      <li>💧 Beber água</li>
+      <li>🍗 Comer proteínas</li>
+      <li>🚫 Evitar fast food</li>
+    </ul>
+  </section>
+
+  <button class="logout" onclick="logout()">Sair</button>
+
+</main>
+
+
+<p id="resultadoIMC"></p>
+<p id="recomendacao" style="white-space: pre-line;"></p>
+<script src="script.js"></script>
+
+</body>
+</html>

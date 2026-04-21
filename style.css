@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+.card {
+  background: white;
+  color: #333;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #00b09b;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #01917f;
+}
+
+.logout {
+  background: red;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+.recomendacao {
+  margin-top: 10px;
+  background: #f1f1f1;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  white-space: pre-line;
+  font-size: 14px;
+}
